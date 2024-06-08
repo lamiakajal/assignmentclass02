@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo,.btns{
+    flex-basis: 20%;    
+}
+.logo a img{
+    width: 175px;
+}
+
+.menu{
+    flex-basis: 60%;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #0e72cc;
+}
+
+.btns button{
+    padding: 8px 20px;
+    background: #0e72cc;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #0e72cc;
+}
